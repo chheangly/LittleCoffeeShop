@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/breakfastButton"
+                android:layout_margin="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@drawable/breakfast"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/espressoButton"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:layout_margin="10dp"
+                android:src="@drawable/espresso"
+                app:layout_constraintTop_toBottomOf="@id/breakfastButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/lunchButton"
+                android:layout_margin="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:layout_constraintTop_toBottomOf="@id/espressoButton"
+                android:src="@drawable/lunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/munchiesButton"
+                android:layout_margin="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                android:src="@drawable/munchies"
+                app:layout_constraintTop_toBottomOf="@id/lunchButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

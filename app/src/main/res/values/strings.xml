@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Little Coffee Shop</string>
+    <string name="username_hint">Username</string>
+    <string name="app_logo">App Logo</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="favorite">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="did_not_have_account">Didn\'t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="google_or_facebook">Or Sign In With Facebook or Google</string>
+    <string name="get_start">GET START !</string>
+    <string name="full_name">Full Name</string>
+    <string name="app_description">The Little Coffee Shop serves specialty coffee, fancy grilled cheese sandwiches, scratch cooking, craft ales, and cider.</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="facebook_app_id">2683179405039616</string>
+    <string name="fb_login_protocol_scheme">fb2683179405039616</string>
+    <string name="img_rul"></string>
+    <string-array name="qty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:id="@+id/itemCardView"
+    android:background="@color/white"
+    cardview:cardCornerRadius="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            cardview:layout_constraintTop_toTopOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/titleTextView"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:text="Title"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            cardview:layout_constraintTop_toBottomOf="@id/titleTextView"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/itemImageView"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <android.support.constraint.ConstraintLayout
+            cardview:layout_constraintVertical_bias="1"
+            cardview:layout_constraintTop_toBottomOf="@id/itemImageView"
+            cardview:layout_constraintBottom_toBottomOf="parent"
+            cardview:layout_constraintStart_toStartOf="parent"
+            cardview:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:text="price"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/button_color"
+                android:textSize="15sp"
+                cardview:layout_constraintTop_toTopOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ToggleButton
+                android:id="@+id/favoriteToggle"
+                android:layout_margin="5dp"
+                android:textOff=""
+                android:background="@drawable/heart_toggle_background"
+                android:textOn=""
+                cardview:layout_constraintTop_toTopOf="parent"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="18dp"
+                android:layout_height="18dp"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
